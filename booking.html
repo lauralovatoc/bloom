@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bloom: booking</title>
+
+        <link rel="icon" type="image/x-icon" href="src/img/branding/favicon.png">
+        <link rel="stylesheet" type="text/css" href="src/css/main.css" media="screen">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body style="box-sizing: border-box;overflow-x: hidden;">
+        <header>
+            <ul class="ulHeader">
+                <li class="liHeader"><a class="nav-item" href="index.html"><img class="imgHeader" src="src/img/branding/logo.png" alt="Logotipo Bloom Café&Matcha"></a></li>
+                <li class="liHeader"><a class="nav-item" href="index.html#info"><span class="material-icons">info</span><b> ABOUT US</b></a></li>
+                <li class="liHeader"><a class="nav-item" href="index.html#drinks"><span class="material-icons">local_cafe</span><b> DRINKS</b></a></li>
+                <li class="liHeader"><a class="nav-item" href="menu.html"><span class="material-icons">bakery_dining</span><b> MENU</b></a></li>
+                <li class="liHeader"><a class="nav-item" href="shop.html"><span class="material-icons">local_mall</span><b> SHOP</b></a></li>
+                <li class="liHeader"><a class="nav-item" href="#support"><span class="material-icons">support_agent</span><b> SUPPORT</b></a></li>
+            </ul>
+        </header>
+
+        <main class="booking">
+
+            <div class="bookGallery">
+                <img class="bookImg" src="src/img/location/shop4.jpg">
+                <img class="bookImg" src="src/img/location/shop3.jpg">
+                <img class="bookImg" src="src/img/location/shop2.jpg">
+                <img class="bookImg" src="src/img/location/shop1.jpg">
+                <img class="bookImg" src="src/img/location/shop5.jpg">
+            </div>
+
+            <h1>Booking a table at <span  id="bloomName">Bloom</span></h1>
+            <pre>Our reservations last 2 hours and you can schedule them here on the website or directly at our address. </pre>
+            <pre>Be punctual, there is a 20-minute tolerance for each table. We are waiting for you!</pre>
+
+            <div class="bookingBoxInputs">
+                <div class="Inputbox">
+                    <input type="email" placeholder="Your email:">
+                    <input type="number" placeholder="Chairs:">
+                </div>
+
+                <div class="Inputbox">
+                    <input type="date" placeholder="Date:">
+                    <input type="time" placeholder="Start of reservation:">
+                </div>
+
+                <div class="Inputbox">
+                    <button>Book</button>
+                </div>
+
+                <div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer id="support">
+            <div>
+                <h2>Contact Us</h2>
+                <p>We’d love to hear from you! Whether you have a question or  feedback — feel free to reach out</p>
+
+                <form class="formSupport">
+                    <input class="contactInput" type="email" placeholder="Your email:">
+                    <input class="contactInput" type="text" placeholder="Message">
+                </form>
+            </div>
+            
+            <div style="margin-right:25%;margin-top:5%;">
+                <a href="#support"><button id="sendButton">Send</button></a>
+            </div>
+        </footer>
+    </body>
+</html>
