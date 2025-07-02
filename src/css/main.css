@@ -470,18 +470,6 @@ footer h2{
     color:#ffdce0;
 }
 
-#more{
-    width:100%;
-    background-color:#eeb3b9;
-}
-
-.moreBox{
-    width:100%;
-    display:inline-flex;
-    justify-content: space-evenly;
-    flex-wrap:no-wrap;
-}
-
 .aboutCM{
     width:100%;
     padding:0;
@@ -512,18 +500,6 @@ footer h2{
     height:150px;
 }
 
-#shop{
-    padding:3%;
-    background-color: #a0e1bd;
-    width:100%;
-}
-
-#shop h2{
-    font-family: 'tanNimbus';
-    color:#ae3750;
-    padding-left:5%;
-}
-
 .signature{
     width:100%;
     display:inline-flex;
@@ -548,8 +524,4 @@ footer h2{
 
 .boxesInfo li{
     color:#3a7751;
-}
-
-#shop h2:hover{
-    color:#ebb1b7;
 }
